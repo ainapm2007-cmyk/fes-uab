@@ -33,6 +33,8 @@ print(f"llista b:{llista_b}")
 print(f"llista a: {llista_a}")
 
 
+
+
 # Exercici 3: Slicing i eliminació amb del
 # Crea una llista amb els nombres de l'1 al 10.
 llista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -77,4 +79,7 @@ print(f"referencia: {referencia}")
 
 # Exercici 6: Ordenar cadenes sense distingir entre majúscules i minúscules
 # Crea una llista amb les cadenes següents: ["Poma", "pera", "PLÀTAN", "taronja"].
+cadenes= ["Poma", "pera", "PLÀTAN", "taronja"]
 # Ordena la llista sense distingir entre majúscules i minúscules.
+cadenes.sort(key=str.lower)
+print(cadenes) # Sortida: ['pera', 'PLÀTAN', 'Poma', 'taronja']
